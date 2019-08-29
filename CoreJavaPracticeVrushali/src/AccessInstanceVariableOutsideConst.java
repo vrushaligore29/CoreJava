@@ -3,15 +3,17 @@ public class AccessInstanceVariableOutsideConst {
 
 	int a;
 	int b;
+	int c;
+	int d;
 
 	AccessInstanceVariableOutsideConst(int a, int b) {
-		this.a = a;
-		this.b = b;
+		c = a;
+		d = b;
 	}
 
 	void disp() {
-		System.out.println(a);
-		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
 	}
 
 	public static void main(String[] args) {
